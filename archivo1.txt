@@ -1,3 +1,2 @@
 Hola mundo
-28 de octubre de 2026
-*vimos Numpy, pandas, para trabajar en Python, se crean arreglos, datos aleatorios, arreglar filas y columnas, indexacion y rebanado en dos dimensiones, operaciones vectorizadass y funciones universales, Broadcasting: trabajar con matrices(operar entre formas distintas), mascara booleanas, algunos temas de estadistica.
+
