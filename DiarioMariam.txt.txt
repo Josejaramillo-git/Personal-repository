@@ -1,0 +1,2 @@
+28 de octubre de 2026
+*vimos Numpy, pandas para trabajar en Python, arreglar filas y columnas, operaciones vectorizadass y funciones universales, Broadcasting: trabajar con matrices(operar entre formas distintas), mascara booleanas, algunos temas de estadistica*.
