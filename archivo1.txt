@@ -1,1 +1,4 @@
 Hola mundo
+28 de octubre de 2026
+*vimos Numpy, pandas, para trabajar en Python
+*se crean arreglos, datos aleatorios 
