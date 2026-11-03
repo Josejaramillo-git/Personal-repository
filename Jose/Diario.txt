@@ -1,0 +1,2 @@
+28 de octubre 2026:
+Se vió en Python, comandos numpy, pandas, se crean arreglos, datos aleatorios, filas y columnas, indexación y rebanado en 2D, broadcasting
