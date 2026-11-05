@@ -1,2 +1,5 @@
 28 de octubre 2026:
 Se vió en Python, comandos numpy, pandas, se crean arreglos, datos aleatorios, filas y columnas, indexación y rebanado en 2D, broadcasting
+4 de octubre 2026:
+Se trataron temas como Dataframe y series con librería de pandas, loç e iloc,
+limpieza de datos, función groupby para dividir, aplicar y combinar,
