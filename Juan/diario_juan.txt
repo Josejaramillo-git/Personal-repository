@@ -1,1 +1,5 @@
-28 de octubre: Trabajamos la biblioteca numpy en Colab observando y usando sus diferentes comandos logramos ver que; se pueden crear arreglos, datos aleatorios, también arreglar filas y columnas. Se realiza indexación y rebanado, operaciones vectorizadas y funciones universales, también broadcasting, máscaras booleanas, estadística, entre otros. 
+28 de octubre: 
+Trabajamos la biblioteca numpy en Colab observando y usando sus diferentes comandos logramos ver que; se pueden crear arreglos, datos aleatorios, también arreglar filas y columnas. Se realiza indexación y rebanado, operaciones vectorizadas y funciones universales, también broadcasting, máscaras booleanas, estadística, entre otros. 
+
+4 de noviembre: 
+Vimos Dataframes, en ello comandos como son; series, type para identificar el tipo, tail, columns, shape, info, loc e iloc, isna y groupby. 
