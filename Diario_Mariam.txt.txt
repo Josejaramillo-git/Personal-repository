@@ -1,4 +1,6 @@
 28 de octubre de 2026
 *vimos Numpy, pandas para trabajar en Python, arreglar filas y columnas, operaciones vectorizadass y funciones universales, Broadcasting: trabajar con matrices(operar entre formas distintas), mascara booleanas, algunos temas de estadistica*.
+
 Miercoles 4 de noviembre de 2026                                                                                                                                                                                                      *Trabajamos con una base de datos encajando librerias(pandas), otra vez Numpy con lo de la mascara boleana para filtrar datos, vimos filas con loc e iloc, eliminar y saber si hay que duplicarlos o si hay datos, para hacer agrupamientos se aplica groupby*.
+
 Lunes 9 de noviembre de 2026                                                                                                                                                                                                                    Hoy en clase se vieron los ultimos temas de clase: Matplotlib y pyplot que sirven para hacer las graficas, diagrama de pastel, se explico como va hacer el proyecto final y el parcial con una base de datos que nos dio el profe en python y nos dijo si la base de datos que nos mando a consultar servia o no
