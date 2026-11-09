@@ -1,0 +1,39 @@
+*¿Qué es la base de datos? (tema, contexto y propósito)
+ Farmacología clínica y seguridad de medicamentos. Contiene información estructurada sobre diversos fármacos, las condiciones médicas que tratan y sus respectivos efectos secundarios.   
+Se enmarca dentro de la investigación en salud, la farmacovigilancia y el desarrollo de modelos de aprendizaje automático (machine learning) orientados a predecir o analizar eventos adversos.  
+ Proveer a investigadores, científicos de datos y analistas de salud una base estandarizada para explorar tendencias de uso de medicamentos, analizar riesgos de seguridad y entrenar modelos predictivos (como árboles de decisión o clasificadores) que estimen múltiples efectos secundarios basados en variables clínicas.  
+
+*¿Cómo se obtuvieron los datos?
+ Es una base de datos de compilación y curación secundaria diseñada para la investigación y la ciencia de datos (frecuentemente construida mediante la integración, limpieza y estructuración de registros farmacológicos de bases de datos públicas o fuentes institucionales/médicas) basada en la pagina de Kaggle. Se Registros administrativos y bases de conocimiento médico/farmacéutico procesadas para investigación computacional.
+
+ *Fuente / URL de descargaFuente: Kaggle (subido por el usuario Palak Jain).   URL: Kaggle - 1000 Drugs and Side Effects
+
+*Número de filas y columnasFilas (Registros): 
+1,000 registros (correspondientes a 1,000 entradas de medicamentos).   
+Columnas (Variables): Varía según la versión exacta del archivo tabulado, pero normalmente incluye atributos esenciales como el nombre del fármaco, la condición clínica o uso indicado, la dosis, la duración del tratamiento y los efectos secundarios asociados.   
+
+*Formato del archivoFormato: 
+CSV (Comma-Separated Values), que es el formato estándar en el que se distribuyen los conjuntos de datos tabulares dentro de la plataforma Kaggle para su fácil importación en Python y GitHub
+
+
+las 1000 drogas y sus efectos
+# Install dependencies as needed:
+# pip install kagglehub[pandas-datasets]
+import kagglehub
+from kagglehub import KaggleDatasetAdapter
+
+# Set the path to the file you'd like to load
+file_path = ""
+
+# Load the latest version
+df = kagglehub.load_dataset(
+  KaggleDatasetAdapter.PANDAS,
+  "palakjain9/1000-drugs-and-side-effects",
+  file_path,
+  # Provide any additional arguments like 
+  # sql_query or pandas_kwargs. See the 
+  # documenation for more information:
+  # https://github.com/Kaggle/kagglehub/blob/main/README.md#kaggledatasetadapterpandas
+)
+
+print("First 5 records:", df.head())

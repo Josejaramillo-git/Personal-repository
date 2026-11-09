@@ -1,0 +1,39 @@
+*¿Qué es la base de datos? (Tema, contexto y propósito)
+ Neurología clínica, biomarcadores moleculares y progresión de enfermedades neurodegenerativas (específicamente la enfermedad de Parkinson), se empieza con iniciativas de investigación médica a gran escala (como estudios de biomarcadores en proteínas y péptidos para pacientes con Parkinson), este recopila mediciones biológicas complejas orientadas a entender cómo evoluciona el trastorno en el organismo.
+
+ Permitir a científicos de datos, investigadores médicos y desarrolladores construir y entrenar modelos de aprendizaje automático capaces de predecir la progresión de la enfermedad de Parkinson, identificar patrones biológicos tempranos y mejorar los enfoques de medicina personalizada o ensayos clínicos.
+
+*¿Cómo se obtuvieron los datos?
+ Extracción, procesamiento y curación de muestras biológicas y ensayos clínicos (principalmente análisis de fluidos corporales, como plasma o líquido cefalorraquídeo, cuantificando niveles de proteínas y péptidos), basado en Kaggle en registros biomédicos de pacientes, mediciones de laboratorio clínico y seguimiento longitudinal de cohortes de pacientes con Parkinson.
+
+* Fuente / URL de descargaFuente: 
+Kaggle (perfil del curador/organizador: thedevastator).   
+URL: Kaggle - Unlocking Clues to Parkinson's Disease Progression   
+
+*Número de filas y columnas:
+Filas (Registros): Varía según las tablas o archivos incluidos en el repositorio (las tablas relacionales de péptidos, proteínas, registros clínicos y visitas de pacientes suelen abarcar desde miles hasta decenas de miles de filas combinadas)
+Columnas (Variables): Múltiples atributos que incluyen identificadores de pacientes como (patient_id), visitas de seguimiento, concentraciones de diversas proteínas/péptidos (marcos analíticos de proteómica) y puntajes de escalas clínicas de severidad.   
+
+*Formato del archivo:
+Formato: CSV (Comma-Separated Values), estructurado frecuentemente en múltiples archivos tabulares relacionados entre sí dentro de un mismo dataset comprimido.
+
+# Install dependencies as needed:
+# pip install kagglehub[pandas-datasets]
+import kagglehub
+from kagglehub import KaggleDatasetAdapter
+
+# Set the path to the file you'd like to load
+file_path = ""
+
+# Load the latest version
+df = kagglehub.load_dataset(
+  KaggleDatasetAdapter.PANDAS,
+  "thedevastator/unlocking-clues-to-parkinson-s-disease-progressi",
+  file_path,
+  # Provide any additional arguments like 
+  # sql_query or pandas_kwargs. See the 
+  # documenation for more information:
+  # https://github.com/Kaggle/kagglehub/blob/main/README.md#kaggledatasetadapterpandas
+)
+
+print("First 5 records:", df.head())
