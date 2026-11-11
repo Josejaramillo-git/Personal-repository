@@ -5,3 +5,5 @@ Se trataron temas como Dataframe y series con librería de pandas, loç e iloc,
 limpieza de datos, función groupby para dividir, aplicar y combinar.
 Lunes 9 de noviembre 2026
 Se vió matplotlib y pyplot, introducción a base de datos.
+Miércoles 11 de noviembre
+Hoy en clase se trabajó y avanzó en la base de datos del proyecto final de GitHub y se envió al correo.
