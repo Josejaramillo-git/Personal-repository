@@ -6,3 +6,6 @@ Vimos Dataframes, en ello comandos como son; series, type para identificar el ti
 
 Lunes 9 de noviembre:
 Se vio matplotlib y pyplot; gráficos, diagrama de pastel. Introducción a bases de datos, limpieza de bases de datos y con qué comandos ejecutarla. Revisión de bases de datos escogidas.  
+
+Miércoles 11 de noviembre:
+Hoy en clase se trabajó y avanzó en la base de datos del proyecto final de GitHub y se le envió al profesor.
