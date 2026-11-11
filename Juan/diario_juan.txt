@@ -1,5 +1,8 @@
-28 de octubre: 
+Miércoles 28 de octubre: 
 Trabajamos la biblioteca numpy en Colab observando y usando sus diferentes comandos logramos ver que; se pueden crear arreglos, datos aleatorios, también arreglar filas y columnas. Se realiza indexación y rebanado, operaciones vectorizadas y funciones universales, también broadcasting, máscaras booleanas, estadística, entre otros. 
 
-4 de noviembre: 
+Miércoles 4 de noviembre: 
 Vimos Dataframes, en ello comandos como son; series, type para identificar el tipo, tail, columns, shape, info, loc e iloc, isna y groupby. 
+
+Lunes 9 de noviembre:
+Se vio matplotlib y pyplot; gráficos, diagrama de pastel. Introducción a bases de datos, limpieza de bases de datos y con qué comandos ejecutarla. Revisión de bases de datos escogidas.  
